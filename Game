@@ -1,0 +1,27 @@
+local G = {
+
+    [99827026339186] = function()
+	print("Hello, world!");
+    end,
+
+    [1] = function()
+
+    end,
+
+    [1] = function()
+
+    end,
+
+    [1] = function()
+
+    end,
+
+}
+
+local A = G[game.PlaceId]
+
+if A then
+    A()
+else
+    game.Players.LocalPlayer:Kick("剑客暂不支持此游戏")
+end
